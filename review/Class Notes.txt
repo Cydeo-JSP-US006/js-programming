@@ -19,7 +19,38 @@ In Java:
 In JavaScript:
     let variableName;
 
+
+
+Promise: Future value/error (50/50).
+    Represents a value that will be available either now, or in future, or never.
     
 
 
+Task01:
+    Make a promise to return the value
+    Step1
+    Step2
+    Step3
+    Step4
+    Return the promise
+
+Task02:
+    Step1
+    Step2
+    Step3 (need the value that task01 is returning) ==> await for the promised value
+    Step4
+
+
+Task03:
+    Step1
+    Step2
+    Step3
+    Step4  (need the value that task01 is returning)  ==> await for the promised value
+
+
+Task04:
+    Step1
+    Step2  (need the value that task01 is returning)  ==> await for the promised value
+    Step3
+    Step4
 

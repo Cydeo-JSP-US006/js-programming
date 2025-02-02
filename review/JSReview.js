@@ -27,58 +27,56 @@ let actualNumber = "20.5";
 
 let expectedNumber = 20.5;
 
-console.log(actualNumber == expectedNumber);  // true
+console.log(actualNumber == expectedNumber); // true
 
 console.log(actualNumber === expectedNumber); // false
 
 console.log(actualNumber !== expectedNumber); // true
 
-
 console.log("----------------------------------------------------------------");
 
 let browser = "chrome";
 
-if(browser === "chrome"){
-    console.log("Selected browser is Chrome");
-}else if(browser == "firefox"){
-    console.log("Selected browser is Firefox");
-}else{
-    console.log("Selected browser is invalid");
+if (browser === "chrome") {
+  console.log("Selected browser is Chrome");
+} else if (browser == "firefox") {
+  console.log("Selected browser is Firefox");
+} else {
+  console.log("Selected browser is invalid");
 }
 
 console.log("----------------------------------------------------------------");
 
 switch (browser) {
-    case "chrome":
-        console.log("Selected browser is Chrome");
-        break;
-    case "firefox":
-        console.log("Selected browser is Firefox");
-        break;
-    default:
-        console.log("Selected browser is invalid");
+  case "chrome":
+    console.log("Selected browser is Chrome");
+    break;
+  case "firefox":
+    console.log("Selected browser is Firefox");
+    break;
+  default:
+    console.log("Selected browser is invalid");
 }
 
 console.log("----------------------------------------------------------------");
 
-
-for(let i = 1; i <= 10; i++){
-    console.log(i);
+for (let i = 1; i <= 10; i++) {
+  console.log(i);
 }
 
 console.log("----------------------------------------------------------------");
 
 let s = "JAVASCRIPT";
 
-for(let c of s){
-    console.log(c);
+for (let c of s) {
+  console.log(c);
 }
 
 console.log("----------------------------------------------------------------");
 
 let str = "1234abcde56789fghijklmn0";
 
-str = str.replace(/\d/g, ''); // removes all the digits from the string
+str = str.replace(/\d/g, ""); // removes all the digits from the string
 
 console.log(str);
 
@@ -90,6 +88,31 @@ let actualTitle = "self enrollment portal";
 
 console.log(expectedTitle.toLowerCase() === actualTitle.toLowerCase());
 
-console.log(`The expected title of the page is ${expectedTitle}, and the actual title is ${actualTitle}`);
+console.log(
+  `The expected title of the page is ${expectedTitle}, and the actual title is ${actualTitle}`
+);
+
+console.log("----------------------------------------------------------------");
+
+let elements = [10, 20, 30, 40, 50, 60];
+
+console.log(elements);
+
+// use for of loop to access each members of the array.
+for (let element of elements) {
+  console.log(element);
+}
+
+
+console.log("----------------------------------------------------------------");
+
+// use for loop to print the elements of the array in reversed order.
+for (let i = elements.length - 1; i >= 0; i--) {
+  console.log(elements[i]);
+}
+
+
+console.log("----------------------------------------------------------------");
+
 
 
