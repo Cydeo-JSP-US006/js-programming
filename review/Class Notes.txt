@@ -1,0 +1,25 @@
+Week01 Review:
+
+	Topics:
+		Core javaScript
+		
+		Asynchronious Programming:
+				Promises
+				Async & Await
+
+		AI Tools:
+			Perplexity
+			Tabnine
+
+
+In Java:
+    int variableName;
+
+
+In JavaScript:
+    let variableName;
+
+    
+
+
+
